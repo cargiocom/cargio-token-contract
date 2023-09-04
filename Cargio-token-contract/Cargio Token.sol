@@ -9,9 +9,6 @@ interface IBEP20 {
 
   function symbol() external view returns (string memory);
 
-  /**
-  * @dev Returns the token name.
-  */
   function name() external view returns (string memory);
 
   /**
