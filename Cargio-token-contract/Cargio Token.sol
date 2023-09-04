@@ -7,9 +7,6 @@ interface IBEP20 {
 
   function decimals() external view returns (uint8);
 
-  /**
-   * @dev Returns the token symbol.
-   */
   function symbol() external view returns (string memory);
 
   /**
