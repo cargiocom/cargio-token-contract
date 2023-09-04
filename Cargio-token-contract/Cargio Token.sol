@@ -11,9 +11,6 @@ interface IBEP20 {
 
   function name() external view returns (string memory);
 
-  /**
-   * @dev Returns the bep token owner.
-   */
   function getOwner() external view returns (address);
 
   /**
