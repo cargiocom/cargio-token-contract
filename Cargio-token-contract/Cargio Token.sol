@@ -102,9 +102,6 @@ contract Ownable is Context {
     emit OwnershipTransferred(address(0), msgSender);
   }
 
-  /**
-   * @dev Returns the address of the current owner.
-   */
   function owner() public view returns (address) {
     return _owner;
   }
