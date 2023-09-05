@@ -151,30 +151,21 @@ contract BEP20Token is Context, IBEP20, Ownable {
 
     emit Transfer(address(0), msg.sender, _totalSupply);
   }
-  /**
-   * @dev Returns the bep token owner.
-   */
+
   function getOwner() external view returns (address) {
     return owner();
   }
 
-  /**
-   * @dev Returns the token decimals.
-   */
   function decimals() external view returns (uint8) {
     return _decimals;
   }
 
-  /**
-   * @dev Returns the token symbol.
-   */
+
   function symbol() external view returns (string memory) {
     return _symbol;
   }
 
-  /**
-  * @dev Returns the token name.
-  */
+
   function name() external view returns (string memory) {
     return _name;
   }
