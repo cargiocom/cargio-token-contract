@@ -2,7 +2,7 @@ pragma solidity >0.4.0 <= 0.9.0;
 
 interface IBEP20 {
 
-
+  function totalSupply() external view returns (uint256);
 
   function decimals() external view returns (uint8);
 
